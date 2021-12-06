@@ -6,7 +6,7 @@
 /*   By: lfilloux <lfilloux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 11:09:23 by lfilloux          #+#    #+#             */
-/*   Updated: 2021/12/06 14:30:41 by lfilloux         ###   ########.fr       */
+/*   Updated: 2021/12/06 15:17:36 by lfilloux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 static void	send_mess(int pid, char *message)
 {
-	int		i;
-	char	c;
+	int				i;
+	unsigned char	c;
 
 	while (*message)
 	{
